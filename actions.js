@@ -18,21 +18,21 @@ function editComment(id, text) {
   return {
     type: EDIT_COMMENT,
     text,
-    id: id
+    id
   };
 }
 
 function removeComment(id) {
   return {
     type: REMOVE_COMMENT,
-    id: id
+    id
   };
 }
 
 function likeComment(id, up) {
   return {
     type: LIKE_COMMENT,
-    id: id,
+    id,
     thumb: up
   };
 }
@@ -40,7 +40,7 @@ function likeComment(id, up) {
 function dislakeComment(id, down) {
   return {
     type: DISLIKE_COMMENT,
-    id: id,
+    id,
     thumb: down
   };
 }
