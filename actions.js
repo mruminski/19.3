@@ -1,10 +1,10 @@
 import uuid  from 'uuid';
 
-const CREATE_COMMENT = 'CREATE_COMMENT';
-const EDIT_COMMENT = 'EDIT_COMMENT';
-const REMOVE_COMMENT = 'REMOVE_COMMENT';
-const LIKE_COMMENT = 'LIKE_COMMENT';
-const DISLIKE_COMMENT = 'DISLAKE_COMMENT';
+export const CREATE_COMMENT = 'CREATE_COMMENT';
+export const EDIT_COMMENT = 'EDIT_COMMENT';
+export const REMOVE_COMMENT = 'REMOVE_COMMENT';
+export const LIKE_COMMENT = 'LIKE_COMMENT';
+export const DISLIKE_COMMENT = 'DISLAKE_COMMENT';
 
 function createComment(text) {
   return {
